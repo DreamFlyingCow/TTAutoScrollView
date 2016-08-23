@@ -4,7 +4,7 @@
 //
 //  Created by 赵春浩 on 16/8/19.
 //  Copyright © 2016年 Mr Zhao. All rights reserved.
-//
+//  Gitbug地址:https://github.com/DreamFlyingCow
 
 #import "TTCollectionView.h"
 #import "UIImageView+SMImg.h"

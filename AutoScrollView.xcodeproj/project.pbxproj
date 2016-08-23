@@ -13,7 +13,6 @@
 		827D79161D66E4BB00ABE4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827D79141D66E4BB00ABE4FD /* Main.storyboard */; };
 		827D79181D66E4BB00ABE4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827D79171D66E4BB00ABE4FD /* Assets.xcassets */; };
 		827D791B1D66E4BB00ABE4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827D79191D66E4BB00ABE4FD /* LaunchScreen.storyboard */; };
-		827D79241D66FB2E00ABE4FD /* TTCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 827D79231D66FB2E00ABE4FD /* TTCollectionView.m */; };
 		827D79471D66FE3B00ABE4FD /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 827D79271D66FE3B00ABE4FD /* MKAnnotationView+WebCache.m */; };
 		827D79481D66FE3B00ABE4FD /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 827D79291D66FE3B00ABE4FD /* NSData+ImageContentType.m */; };
 		827D79491D66FE3B00ABE4FD /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 827D792B1D66FE3B00ABE4FD /* SDImageCache.m */; };
@@ -32,6 +31,7 @@
 		827D79561D66FE3B00ABE4FD /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 827D79461D66FE3B00ABE4FD /* UIView+WebCacheOperation.m */; };
 		827D79591D66FE5000ABE4FD /* UIImageView+SMImg.m in Sources */ = {isa = PBXBuildFile; fileRef = 827D79581D66FE5000ABE4FD /* UIImageView+SMImg.m */; };
 		827D795C1D6703C300ABE4FD /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 827D795B1D6703C300ABE4FD /* UIViewExt.m */; };
+		829418BF1D6BFDF200750D14 /* TTCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 829418BE1D6BFDF200750D14 /* TTCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,8 +45,6 @@
 		827D79171D66E4BB00ABE4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		827D791A1D66E4BB00ABE4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		827D791C1D66E4BB00ABE4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		827D79221D66FB2E00ABE4FD /* TTCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCollectionView.h; sourceTree = "<group>"; };
-		827D79231D66FB2E00ABE4FD /* TTCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCollectionView.m; sourceTree = "<group>"; };
 		827D79261D66FE3B00ABE4FD /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		827D79271D66FE3B00ABE4FD /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		827D79281D66FE3B00ABE4FD /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -84,6 +82,8 @@
 		827D79581D66FE5000ABE4FD /* UIImageView+SMImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SMImg.m"; sourceTree = "<group>"; };
 		827D795A1D6703C300ABE4FD /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		827D795B1D6703C300ABE4FD /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		829418BD1D6BFDF200750D14 /* TTCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCollectionView.h; sourceTree = "<group>"; };
+		829418BE1D6BFDF200750D14 /* TTCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,13 +116,12 @@
 		827D790A1D66E4BB00ABE4FD /* AutoScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				829418BC1D6BFDF200750D14 /* TTCollectionView */,
 				827D79251D66FE3B00ABE4FD /* SDWebImage */,
 				827D790E1D66E4BB00ABE4FD /* AppDelegate.h */,
 				827D790F1D66E4BB00ABE4FD /* AppDelegate.m */,
 				827D79111D66E4BB00ABE4FD /* ViewController.h */,
 				827D79121D66E4BB00ABE4FD /* ViewController.m */,
-				827D79221D66FB2E00ABE4FD /* TTCollectionView.h */,
-				827D79231D66FB2E00ABE4FD /* TTCollectionView.m */,
 				827D795A1D6703C300ABE4FD /* UIViewExt.h */,
 				827D795B1D6703C300ABE4FD /* UIViewExt.m */,
 				827D79141D66E4BB00ABE4FD /* Main.storyboard */,
@@ -182,6 +181,15 @@
 				827D79461D66FE3B00ABE4FD /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		829418BC1D6BFDF200750D14 /* TTCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				829418BD1D6BFDF200750D14 /* TTCollectionView.h */,
+				829418BE1D6BFDF200750D14 /* TTCollectionView.m */,
+			);
+			path = TTCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +266,6 @@
 				827D79521D66FE3B00ABE4FD /* UIImage+MultiFormat.m in Sources */,
 				827D795C1D6703C300ABE4FD /* UIViewExt.m in Sources */,
 				827D794D1D66FE3B00ABE4FD /* SDWebImageDownloaderOperation.m in Sources */,
-				827D79241D66FB2E00ABE4FD /* TTCollectionView.m in Sources */,
 				827D794A1D66FE3B00ABE4FD /* SDWebImageCompat.m in Sources */,
 				827D79511D66FE3B00ABE4FD /* UIImage+GIF.m in Sources */,
 				827D794F1D66FE3B00ABE4FD /* SDWebImagePrefetcher.m in Sources */,
@@ -275,6 +282,7 @@
 				827D790D1D66E4BB00ABE4FD /* main.m in Sources */,
 				827D794E1D66FE3B00ABE4FD /* SDWebImageManager.m in Sources */,
 				827D794B1D66FE3B00ABE4FD /* SDWebImageDecoder.m in Sources */,
+				829418BF1D6BFDF200750D14 /* TTCollectionView.m in Sources */,
 				827D79491D66FE3B00ABE4FD /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
